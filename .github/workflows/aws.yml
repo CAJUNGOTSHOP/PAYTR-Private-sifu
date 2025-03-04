@@ -25,12 +25,14 @@
 #    and best practices on handling the access key credentials.
 env:
   AWS_REGION: MY_AWS_REGION                   # set this to your preferred AWS region, e.g. us-west-1
+  ECR_REPOSITORY: MY_ECR_REPOSITORY           # set ▋env:
+  AWS_REGION: MY_AWS_REGION                   # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: MY_ECR_REPOSITORY           # set this to your Amazon ECR repository name
   ECS_CLUSTER: MY_ECS_CLUSTER                 # set this to your ▋name: Deploy to Amazon ECS
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main"]
 
 env:
   AWS_REGION: MY_AWS_REGION                   # set this to your preferred AWS region, e.g. us-west-1
