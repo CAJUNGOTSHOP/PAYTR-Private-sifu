@@ -54,7 +54,7 @@
   "homepage": "https://openzeppelin.com/contracts/",
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
-    "@changesets/cli": "^2.26.0",
+    "@changesets/cli": "^2.29.6",
     "@changesets/pre": "^1.0.14",
     "@changesets/read": "^0.5.9",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.3",
@@ -71,7 +71,7 @@
     "ethereumjs-wallet": "^1.0.1",
     "glob": "^8.0.3",
     "graphlib": "^2.1.8",
-    "hardhat": "^2.20.0",
+    "hardhat": "^3.0.0",
     "hardhat-exposed": "^0.3.3",
     "hardhat-gas-reporter": "^2.0.0",
     "hardhat-ignore-warnings": "^0.2.0",
